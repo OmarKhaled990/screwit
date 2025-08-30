@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f6f7fb;
+}
+
+html, body, :root {
+  height: 100%;
+}
+
+body {
+  @apply bg-canvas text-slate-800;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow-soft ring-1 ring-black/5;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium;
+}
+
+.btn-primary {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+.btn-ghost {
+  @apply bg-white hover:bg-slate-50 ring-1 ring-black/10;
+}
+
+.badge {
+  @apply inline-flex items-center justify-center rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ring-black/10;
+}
