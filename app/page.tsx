@@ -12,7 +12,7 @@ type Stat = {
 const stats: Stat[] = [
   { title: "Total projects",     value: 50,  icon: "/icons/folder.svg", chipBg: "bg-slate-800"  },
   { title: "Total test cases",   value: 400, icon: "/icons/cases.svg",  chipBg: "bg-blue-600"   },
-  { title: "Total passed cases", value: 250, icon: "/icons/vector.svg", chipBg: "bg-emerald-500"},
+  { title: "Total passed cases", value: 250, icon: "/icons/Vector.svg", chipBg: "bg-emerald-500"},
   { title: "Total failed cases", value: 150, icon: "/icons/x.svg",      chipBg: "bg-red-500"    },
 ];
 
