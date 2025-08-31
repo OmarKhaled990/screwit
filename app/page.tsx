@@ -139,7 +139,7 @@ export default function Page() {
           <div className="rounded-[12px] border border-slate-200 bg-white p-3 sm:p-5 shadow-soft w-full">
             <div className="relative w-full h-[200px] sm:h-[300px] lg:h-[400px]">
               <Image
-                src="/images/bar-chart.svg"
+                src="/images/Bar-chart.svg"
                 alt="bar chart"
                 fill
                 className="object-contain"

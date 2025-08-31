@@ -16,7 +16,7 @@ type Item = {
 const NAV: Item[] = [
   { href: "/",           label: "Dashboard",  icon: "/icons/dashboard.svg", accent: "red" },
   { href: "/projects",   label: "Projects",   icon: "/icons/proj.svg" },
-  { href: "/test-cases", label: "Test cases", icon: "/icons/icons.svg" },
+  { href: "/test-cases", label: "Test cases", icon: "/icons/Icons.svg" },
   { href: "/bugs",       label: "Bugs",       icon: "/icons/bugs.svg" },
 ];
 
