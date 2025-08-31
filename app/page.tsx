@@ -20,14 +20,14 @@ export default function Page() {
   return (
     <main className="w-full px-4 sm:px-6 md:px-8 xl:px-10 2xl:px-12 pb-8 sm:pb-12 pt-2">
       {/* Toolbar under header - RESPONSIVE */}
-      <div className="mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
-        <h2 className="text-base font-semibold text-slate-800">Dashboard</h2>
-        <div className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto">
-          <button className="btn btn-ghost text-xs sm:text-sm flex-1 sm:flex-none">
+      <div className="mb-4 sm:mb-6 space-y-3 sm:space-y-0 sm:flex sm:items-center sm:justify-between">
+        <h2 className="text-lg sm:text-base font-semibold text-slate-800">Dashboard</h2>
+        <div className="flex items-center gap-3 sm:gap-3">
+          <button className="btn btn-ghost flex-1 sm:flex-none justify-center">
             <Image src="/icons/calendar.svg" alt="" width={16} height={16} />
-            <span className="hidden xs:inline">Calendar</span>
+            <span>Calendar</span>
           </button>
-          <button className="btn btn-primary text-xs sm:text-sm flex-1 sm:flex-none">
+          <button className="btn btn-primary flex-1 sm:flex-none justify-center">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <line x1="12" y1="5"  x2="12" y2="19" />
